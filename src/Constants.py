@@ -16,7 +16,7 @@ TEMP_TEST_DATA_DIR = "__TEMP_DATA__"
 LOCAL_HOST = "127.0.0.1"
 EXIT_PAYMENT_TYPE = "exit"
 # https://forum.tezosagora.org/t/turning-ithacanet-into-a-permanent-testnet-ghostnet/4614
-TESTNET_PREFIX = "ghost"
+TESTNET_PREFIX = "jakarta"
 TESTNET_SUFFIX = "net"
 CURRENT_TESTNET = (TESTNET_PREFIX + TESTNET_SUFFIX).upper()
 

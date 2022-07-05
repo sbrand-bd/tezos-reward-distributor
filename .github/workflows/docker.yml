@@ -25,7 +25,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: trdo/tezos-reward-distributor
+          images: sbrand-bd/tezos-reward-distributor
           tags: |
             type=ref,event=branch
             type=ref,event=pr

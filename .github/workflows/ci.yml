@@ -104,4 +104,4 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Build the docker image
-      run: docker build -t trdo/tezos-reward-distributor .
+      run: docker build -t sbrand-bd/tezos-reward-distributor .

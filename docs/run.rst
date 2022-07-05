@@ -35,8 +35,8 @@ Options
 ``-O --payment_offset <int>``
     Number of blocks to wait after a cycle starts before starting payments. This can be useful because cycle beginnings may be busy.
 
-``-N --network <MAINNET|ITHACANET>``
-    Network name. Default value: ``MAINNET``. The current test network of Tezos is ``ITHACANET``.
+``-N --network <MAINNET|JAKARTANET>``
+    Network name. Default value: ``MAINNET``. The current test network of Tezos is ``JAKARTANET``.
 
 ``-A --node_endpoint <node_url:port>``
     Node potentially with protocol prefix especially if TLS encryption is used. Default value: ``http://127.0.0.1:8732``. This is the main Tezos node used by the client for RPC queries and operation injections.
